@@ -1,0 +1,16 @@
+{
+  "files": [],
+  "references": [
+    { "path": "./tsconfig.app.json" },
+    { "path": "./tsconfig.node.json" },
+  ],
+  "compilerOptions": {
+    "composite": true,
+    // 基准 URL，用于解析非相对模块名称
+    "baseUrl": "./",
+    // 路径映射，用于将导入路径映射到基准 URL 下的特定路径
+    "paths": {
+      "@/*": ["src/*"]
+    },
+  },
+}
