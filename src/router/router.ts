@@ -3,11 +3,15 @@ import { createRouter,createWebHashHistory } from 'vue-router'
 const routes = [
   {
     path: '/',
-    redirect: '/home',
+    redirect: '/robot',
   },
   {
     path: '/home',
     component: () => import('@/views/home.vue'),
+  },
+  {
+    path: '/bg',
+    component: () => import('@/views/background/index.vue'),
   },
   {
     path: '/logo',
