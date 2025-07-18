@@ -25,7 +25,7 @@ import { Motion } from "motion-v"
       <div class="py-4 text-base font-extralight md:text-4xl dark:text-neutral-200">
         一起来感受动效带来的舒适感吧。
       </div>
-      <InteractiveHoverButton text="首页🚀"/>
+      <InteractiveHoverButton text="首页🚀" @click="$router.push('/')"/>
     </Motion>
   </AuroraBackground>
 </template>

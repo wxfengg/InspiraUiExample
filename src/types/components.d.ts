@@ -22,6 +22,7 @@ declare module 'vue' {
     RainbowButton: typeof import('./../components/RainbowButton.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
+    ShimmerButton: typeof import('./../components/ShimmerButton.vue')['default']
     Spline: typeof import('./../components/Spline/index.vue')['default']
     Vortex: typeof import('./../components/Vortex.vue')['default']
     WavyBackground: typeof import('./../components/WavyBackground.vue')['default']
