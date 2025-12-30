@@ -8,7 +8,7 @@
     <p class="inter-var mt-4 text-center text-base font-normal text-white md:text-lg  mb-[20px]">
       一起来感受动效带来的舒适感吧。
     </p>
-    <InteractiveHoverButton class="bg-white" text="首页🚀" @click="$router.push('/')"/>
+    <InteractiveHoverButton text="首页🚀" @click="$router.push('/')"/>
   </WavyBackground>
 </template>
 

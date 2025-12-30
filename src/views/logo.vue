@@ -1,8 +1,8 @@
 <script lang="ts" setup>
-const imageUrl = "https://cdn.inspira-ui.com/images/apple-logo.svg";
-import logo1Img from '@/assets/logo.png';
-import miniImg from '@/assets/小程序logo.svg';
-import logo2Img from '@/assets/LOGO.svg';
+// const imageUrl = "https://cdn.inspira-ui.com/images/apple-logo.svg";
+// import logo1Img from '@/assets/logo.png';
+// import miniImg from '@/assets/小程序logo.svg';
+// import logo2Img from '@/assets/LOGO.svg';
 import f from '@/assets/f.svg';
 </script>
 

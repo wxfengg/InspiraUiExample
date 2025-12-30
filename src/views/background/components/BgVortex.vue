@@ -10,7 +10,7 @@
       <p class="mt-6 max-w-3xl text-center text-sm text-white md:text-2xl mb-10">
         一起来感受动效带来的舒适感吧。
       </p>
-      <InteractiveHoverButton class="bg-white" text="首页🚀" @click="$router.push('/')"/>
+      <InteractiveHoverButton text="首页🚀" @click="$router.push('/')"/>
     </Vortex>
   </div>
 </template>
